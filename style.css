@@ -1,0 +1,163 @@
+/*          GERAL/INDEX          */
+
+.tela {
+    background: linear-gradient(180deg, #FF0000 20%, rgba(255, 255, 255, 0.87) 75%);
+    /* padding-top: 85px;
+    padding-left: 25px; */
+}
+
+.tela h2 {
+    display: flex;
+    color: #ffffff;
+    padding: 25px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tela h3 {
+    display: flex;
+    opacity: 0.55;
+    color: #FFFFFF;
+    padding-left: 35px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.span {
+    color: #000000;
+}
+
+hr {
+    position: relative;
+    margin-top: -10px;
+    color: inherit;
+}
+
+#vetor1 {
+    position: absolute;
+    width: 249.19px;
+    height: 182px;
+    left: 141.02px;
+    top: 258.86px;
+}
+
+#vetor2 {
+    position: relative;
+    width: 249.19px;
+    height: 182px;
+    left: 95px;
+    top: 70px;
+}
+
+.forms {
+    padding: inherit;
+    font-size: 15px !important;
+    margin-top: 65px;
+}
+
+.login-forms {
+    padding-top: inherit;
+}
+
+.form-control {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background: none;
+    text-decoration: #00000033;
+    ;
+    border-radius: inherit;
+}
+
+#retrieve {
+    display: flex;
+    padding-top: 5px;
+    color: #00000066;
+    text-decoration: none;
+    flex-direction: row-reverse;
+}
+
+.options {
+    padding: 35px;
+    padding-top: 30%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom-options {
+    color: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff5555;
+}
+
+/*              CADASTRO             */
+
+.cabecalho-cadastro {
+    display: flex;
+    padding: 25px;
+    justify-content: flex-start;
+}
+
+.cabecalho-cadastro h4 {
+    left: 105px;
+    font-size: 20px;
+    position: absolute;
+    display: inline-flex;
+}
+
+.forms-cadastro {
+    padding: 25px;
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-title {
+    font-size: 15px;
+}
+
+.termos-row {
+    padding-top: 15px;
+    align-items: center;
+    display: inline-flex;
+}
+
+.form{
+    padding: 10px;
+}
+
+.termo {
+    left: 5px;
+    position: relative;
+}
+
+#termos-de-uso{
+    text-decoration: none;
+    color: #ff5555;
+}
+
+#termos-de-comunicacao{
+    text-decoration: none;
+    color: #00FF38;
+}
+
+.botao{
+    padding: 20%;
+}
+
+button{
+    width: 225px;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+    background: black;
+}
